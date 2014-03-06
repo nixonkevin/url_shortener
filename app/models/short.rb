@@ -2,7 +2,7 @@ class Short < ActiveRecord::Base
 	  attr_accessible :long, :desc
   attr_accessor :desc
 
-class Pony < ActiveRecord::Base
+class Short < ActiveRecord::Base
   # standard validation
   validates :homepage, :url => true
 
