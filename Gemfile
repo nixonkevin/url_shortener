@@ -1,4 +1,12 @@
 source 'https://rubygems.org'
+# add this to your Gemfile
+gem "validate_url"
+
+gem 'twitter-bootstrap-rails'
+
+gem 'jquery-turbolinks'
+
+gem 'protected_attributes'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
